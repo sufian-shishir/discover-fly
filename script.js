@@ -1,4 +1,4 @@
-// firstClassTicket EventListener.
+// EventListener part of firstClassTicket.
 document.getElementById('addFirstClass').addEventListener('click', function () {
     handleTicketQuantity('firstClass',true);
 });
@@ -6,7 +6,7 @@ document.getElementById('removeFirstClass').addEventListener('click', function()
     handleTicketQuantity('firstClass',false);
 });
 
-// economyTicket EventListener
+// EventListener part of economyTicket. 
 document.getElementById('addEconomy').addEventListener('click',function(){
     handleTicketQuantity('economy', true);
 })
