@@ -165,3 +165,10 @@ nav ul li a:hover, a.active{
     border: none;
     border-radius: 3px;
 }
+#enjoyTrip{
+    display: none;
+    margin-top: 50px;
+    background-color: bisque;
+    padding: 5px;
+    
+}
