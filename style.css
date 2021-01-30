@@ -137,3 +137,31 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#booking-content{
+    display: none;
+    background-color: white;
+    margin-top: 100px;
+    padding: 60px;
+    width: 600px;
+    border-radius: 10px;
+}
+.cancel-btn{
+    margin-top: 20px;
+    width: 60px;
+    padding: 2px;
+    height: 25px;
+    background-color: rgb(206, 41, 41);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.confirm-btn{
+    margin-top: 20px;
+    width: 60px;
+    padding: 2px;
+    height: 25px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
